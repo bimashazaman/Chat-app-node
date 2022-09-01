@@ -11,5 +11,7 @@ const router = express.Router();
 //Login page
 router.get("/", decorateHtmlResponse("Users"), getUsers);
 
+
+
 //export
 module.exports = router;
