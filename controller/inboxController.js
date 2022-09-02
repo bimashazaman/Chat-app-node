@@ -16,7 +16,7 @@ async function getInbox(req, res, next) {
       ],
     });
     res.locals.data = conversations;
-    res.render("inbox");
+    res.render("inbox.ejs");
   } catch (err) {
     next(err);
   }
